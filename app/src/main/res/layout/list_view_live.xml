@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/country_name_text1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        android:layout_weight="2.5"
+        android:gravity="center"
+        android:textColor="#CD000000"
+        android:textSize="16sp"
+        tools:text="China" />
+
+    <TextView
+        android:id="@+id/total_cases_text1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="14sp"
+        android:textColor="#CD000000"
+        android:gravity="center"
+        android:layout_weight="1.2"
+        android:background="#FFF"
+        android:layout_marginLeft="1dp"
+        tools:text="88,123"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/total_deaths_text1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="14sp"
+        android:textColor="#FA0202"
+        android:layout_weight="1.2"
+        android:background="#FBE9E7"
+        android:gravity="center"
+        android:layout_marginLeft="1dp"
+        tools:text="8,123"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/total_newcases_text1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="14sp"
+        android:textColor="#B9FA0558"
+        android:layout_weight="1.2"
+        android:gravity="center"
+        android:background="#FFF"
+        android:layout_marginLeft="1dp"
+        tools:text="+24"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>

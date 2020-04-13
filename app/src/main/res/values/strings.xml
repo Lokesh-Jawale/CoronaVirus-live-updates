@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">CoronaVirus Live Updates</string>
+    <string name="info">The coronavirus COVID-19 is affecting 155 countries and \t territories around the world and 1 international conveyance (\t the Diamond Princess cruise ship harbored in Yokohama, Japan).</string>
+    <string name="contentDesImage">image</string>
+    <string name="menu_item_refresh">Refresh</string>
+    <string name="no_internet_connection_string">No Internet Connection</string>
+
+</resources>
