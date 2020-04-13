@@ -65,9 +65,6 @@ public class MainActivity extends AppCompatActivity {
                 });
 
             } else {
-//                emptyText = (TextView)view.findViewById(R.id.empty_text);
-//                emptyText.setText("No Internet Connection");
-//                progressBar.setVisibility(View.GONE);
                 noInternetConnection();
             }
         }catch(Exception e){
